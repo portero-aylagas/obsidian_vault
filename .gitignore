@@ -1,0 +1,11 @@
+# Local agent metadata
+.agents/
+.codex/
+
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS noise
+.DS_Store
+Thumbs.db
