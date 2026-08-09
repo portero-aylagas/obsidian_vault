@@ -123,9 +123,9 @@ Subtopics:
 - multi-app automation
 
 ### Frameworks
-- [[Frameworks/LangChain]]
+- [[Ironhack/Frameworks/LangChain]]
 - [[Frameworks/MCP]]
-- [[Frameworks/LangGraph]]
+- [[Ironhack/Frameworks/LangGraph]]
 
 Subtopics:
 - LangChain model abstraction

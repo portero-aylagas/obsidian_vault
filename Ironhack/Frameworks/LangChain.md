@@ -272,5 +272,5 @@ Agent = model + tools + loop
 ## Progression
 - Builds on [[../Prompting/Dynamic Prompting]]
 - Connects to [[MCP]]
-- Connects to [[LangGraph]]
+- Connects to [[Ironhack/Frameworks/LangGraph]]
 - Connects to [[../RAG/RAG Basics]]

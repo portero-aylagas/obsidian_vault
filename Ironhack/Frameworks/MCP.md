@@ -103,5 +103,5 @@ Direct API calls are still useful when a small integration needs explicit contro
 - MCP standardizes how AI systems access tools and external data sources.
 
 ## Progression
-- Extends [[LangChain]]
+- Extends [[Ironhack/Frameworks/LangChain]]
 - Applied in [[../Labs/W3D5 MCP in LangChain Lab]]

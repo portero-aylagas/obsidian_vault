@@ -69,7 +69,7 @@ Use this note when you ask: "Where did I learn this concept, and where did I see
 | Rate limiting | [[APIs/Multi-Provider]] | `m2_02_integration-patterns.ipynb` | [[Labs/W2D4 News Summarizer Lab]] | RPM intervals, waiting between calls |
 | Cost tracking | [[APIs/Multi-Provider]] | `m2_02_integration-patterns.ipynb` | [[Labs/W2D4 News Summarizer Lab]], [[Labs/Project 2 Report Generator]] | Pricing tables, usage aggregation, budgets |
 | Async processing | [[Engineering/Code Quality and Automation]] | partial in integration ideas | [[Labs/W2D4 News Summarizer Lab]] | Concurrent article processing with a semaphore |
-| Guardrail middleware | [[Frameworks/LangChain]], [[APIs/Reliability Patterns]] | applied Week 4 lab material | [[Labs/W4D1 LangChain Guardrails Lab]] | Input/output checks, PII redaction, policy gates |
+| Guardrail middleware | [[Ironhack/Frameworks/LangChain]], [[APIs/Reliability Patterns]] | applied Week 4 lab material | [[Labs/W4D1 LangChain Guardrails Lab]] | Input/output checks, PII redaction, policy gates |
 | Workflow error handling | [[APIs/Reliability Patterns]], [[n8n/n8n Workflows]] | applied Week 4 lab material | [[Labs/W4D4 n8n Error Handling and Scheduled Workflows Lab]] | Retry paths, error branches, scheduled recovery |
 
 ---
@@ -113,13 +113,13 @@ Use this note when you ask: "Where did I learn this concept, and where did I see
 
 | Concept | Topic Note | Official Course Source | Lab / Project Source | What It Covers |
 |---|---|---|---|---|
-| LangChain models | [[Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | `ChatOpenAI`, model setup |
-| Messages | [[Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | User/system/AI message flow |
-| Tools | [[Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Callable functions exposed to the agent |
-| Tool registry | [[Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | `TOOLS` list imported into the agent |
-| Agents | [[Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Model + tools + loop |
-| Prompt separation | [[Frameworks/LangChain]] | partial in framework practice | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Store system prompt outside agent runtime |
-| Final answer extraction | [[Frameworks/LangChain]] | partial in agent examples | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Read final `AIMessage` from agent result |
+| LangChain models | [[Ironhack/Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | `ChatOpenAI`, model setup |
+| Messages | [[Ironhack/Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | User/system/AI message flow |
+| Tools | [[Ironhack/Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Callable functions exposed to the agent |
+| Tool registry | [[Ironhack/Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | `TOOLS` list imported into the agent |
+| Agents | [[Ironhack/Frameworks/LangChain]] | `langchain_integration.ipynb` | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Model + tools + loop |
+| Prompt separation | [[Ironhack/Frameworks/LangChain]] | partial in framework practice | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Store system prompt outside agent runtime |
+| Final answer extraction | [[Ironhack/Frameworks/LangChain]] | partial in agent examples | [[Labs/W3D3 LangChain Complaint Handler Lab]] | Read final `AIMessage` from agent result |
 | MCP | [[Frameworks/MCP]] | `mcp_introduction.ipynb` | [[Labs/W3D5 MCP in LangChain Lab]] | External tool/resource server integration |
 | MCP filesystem tools | [[Frameworks/MCP]] | `mcp_introduction.ipynb` | [[Labs/W3D5 MCP in LangChain Lab]] | Let an agent inspect files through a constrained MCP server |
 | MCP Git tools | [[Frameworks/MCP]] | `mcp_introduction.ipynb` | [[Labs/W3D5 MCP in LangChain Lab]] | Let an agent inspect repository state through MCP |
@@ -137,11 +137,11 @@ Use this note when you ask: "Where did I learn this concept, and where did I see
 
 | Concept | Topic Note | Official Course Source | Lab / Project Source | What It Covers |
 |---|---|---|---|---|
-| LangGraph state graphs | [[Frameworks/LangGraph]] | `langgraph.ipynb`, `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Define a workflow as nodes, edges, and shared state |
-| Typed workflow state | [[Frameworks/LangGraph]] | `langgraph.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Pass structured state through each graph node |
-| Deterministic AI workflows | [[Frameworks/LangGraph]] | `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Use fixed stages when an AI process must be traceable |
-| Structured investigation and resolution | [[Frameworks/LangGraph]] | `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Move from intake to validation, investigation, resolution, and closure |
-| Workflow path tracking | [[Frameworks/LangGraph]] | partial in Week 4 workflow practice | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Record which nodes executed for debugging and review |
+| LangGraph state graphs | [[Ironhack/Frameworks/LangGraph]] | `langgraph.ipynb`, `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Define a workflow as nodes, edges, and shared state |
+| Typed workflow state | [[Ironhack/Frameworks/LangGraph]] | `langgraph.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Pass structured state through each graph node |
+| Deterministic AI workflows | [[Ironhack/Frameworks/LangGraph]] | `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Use fixed stages when an AI process must be traceable |
+| Structured investigation and resolution | [[Ironhack/Frameworks/LangGraph]] | `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Move from intake to validation, investigation, resolution, and closure |
+| Workflow path tracking | [[Ironhack/Frameworks/LangGraph]] | partial in Week 4 workflow practice | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Record which nodes executed for debugging and review |
 
 ---
 
@@ -181,5 +181,5 @@ Use this note when you ask: "Where did I learn this concept, and where did I see
 | Source ingestion | [[RAG/RAG Basics]] | `rag_intro.ipynb` | [[Labs/W2D1 Podcast Project]], [[Labs/Project 2 Report Generator]] | PDF, URL, text, markdown knowledge base |
 | Report generation | [[Prompting/Dynamic Prompting]] | dynamic prompting concepts | [[Labs/Project 2 Report Generator]] | Context + templates + model output |
 | Podcast generation | [[Speech/TTS]] | speech notebooks | [[Labs/W2D1 Podcast Project]] | Summary to script to speech |
-| Structured workflow orchestration | [[Frameworks/LangGraph]] | `langgraph.ipynb`, `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Multi-stage AI workflow with explicit state and predictable execution |
+| Structured workflow orchestration | [[Ironhack/Frameworks/LangGraph]] | `langgraph.ipynb`, `langgraph_integration.ipynb` | [[Labs/W4D1 LangGraph Complaint Workflow Lab]] | Multi-stage AI workflow with explicit state and predictable execution |
 | Operational app automation | [[n8n/n8n Workflows]] | applied Week 4 lab material | [[Labs/W4D2 n8n Node Study Guide Lab]], [[Labs/W4D3 n8n Multi-App Integration Lab]] | Low-code workflows that connect triggers, AI/model steps, transformations, and external apps |

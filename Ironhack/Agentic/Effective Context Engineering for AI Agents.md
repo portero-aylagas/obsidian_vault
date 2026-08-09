@@ -174,5 +174,5 @@ Hybrid pattern:
 - Extends [[Prompting/Dynamic Prompting]]
 - Extends [[RAG/RAG Basics]]
 - Extends [[RAG/RAG Optimization]]
-- Extends [[Frameworks/LangChain]]
+- Extends [[Ironhack/Frameworks/LangChain]]
 - Extends [[Frameworks/MCP]]

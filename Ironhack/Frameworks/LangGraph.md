@@ -107,6 +107,6 @@ Use LangGraph when correctness, traceability, and consistent order matter more.
 - The model can still be used inside nodes, but the workflow owns the sequence.
 
 ## Progression
-- Builds on [[LangChain]]
+- Builds on [[Ironhack/Frameworks/LangChain]]
 - Extends [[../Engineering/Code Quality and Automation]]
 - Applied in [[../Labs/W4D1 LangGraph Complaint Workflow Lab]]

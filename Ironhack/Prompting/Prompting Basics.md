@@ -56,7 +56,7 @@ Give several examples to establish a stronger pattern.
 Q: Apple
 A: Fruit
 
-Q: Carrot
+Q: Carrot  
 A: Vegetable
 
 Q: Banana
